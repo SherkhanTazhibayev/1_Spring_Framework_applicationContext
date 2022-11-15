@@ -4,7 +4,6 @@ public class Human {
     private String birthday;
 
     public Human() {
-
     }
 
     public Human(String name, String gender, String birthday) {
