@@ -11,15 +11,11 @@ public class main {
                 "AppContext.xml"
         );
 
-        Human human = context.getBean("human", Human.class);
+        Human human = context.getBean("id_human", Human.class);
+
         Scanner in = new Scanner(System.in);
-        System.out.print("name: ");
         String name = in.nextLine();
-
-        System.out.print("sex: ");
         String sex = in.nextLine();
-
-        System.out.print("birthday: ");
         String birthday = in.nextLine();
 
         human.setName(name);
